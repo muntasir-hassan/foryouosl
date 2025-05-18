@@ -12,6 +12,6 @@ export const data = [
   {
     src: "./videos/reel3.mp4",
     title:
-      "Bro forgot about it, if possible. And comeback to ff like white444.",
+      "Bro forgot about it(if possible). And comeback to ff like white444.",
   },
 ];
