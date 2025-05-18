@@ -58,7 +58,7 @@ const check = () => {
             <video class="w-full h-auto rounded-md" controls autoplay muted loop loading="lazy">
                     <source src="${reel.src}" type="video/mp4" />
                     Your browser does not support the video tag.
-                  </video>
+                  </video>`)}
     </section>
 
     <div class="bg-white p-8 rounded-lg shadow-lg space-y-6 my-8">
