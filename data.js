@@ -1,6 +1,6 @@
 export const data = [
   {
-    src: "./videos/reel1.mp4",
+    src: "https://youtube.com/shorts/KDNNYUZXDIc",
     title:
       "Back when my awkward old self tried to confess love the only way he knew how... one quiet story, one view, a heart never spoken to 💔. 2023",
   },
