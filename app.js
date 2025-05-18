@@ -57,7 +57,7 @@ const check = () => {
                   <h3 class="text-lg font-medium mb-3 text-gray-800">
                     ${reel.title}
                   </h3>
-                  <video class="w-full h-auto rounded-md" controls autoplay muted loop loading="lazy">
+                  <video class="w-full h-auto rounded-md" controls autoplay loop>
                     <source src="${reel.src}" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
