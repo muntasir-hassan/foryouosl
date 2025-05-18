@@ -55,10 +55,17 @@ const check = () => {
                   <h3 class="text-lg font-medium mb-3 text-gray-800">
                     ${reel.title}
                   </h3>
-                  <video class="w-full h-auto rounded-md" controls autoplay muted loop loading="lazy">
-                    <source src="${reel.src}" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                 <div class="relative w-full pb-[56.25%] rounded-md overflow-hidden">
+  <iframe
+    class="absolute top-0 left-0 w-full h-full"
+    src=${reel.src}
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+    loading="lazy"
+    title="Reel"
+  ></iframe>
+</div>
                 </div>
               `
               )
