@@ -31,15 +31,11 @@ export const data = [
   {
     src: "./videos/reel8.mp4",
     title:
-      "Ego usually writes this story - but this time, it was self-respect holding the pen 😮‍💨",
+       "Bro, don't forget that everything you're saying about me is also applicable to you 🥀",
   },
   {
     src: "./videos/reel9.mp4",
-    title:
-      "Bro, don't forget that everything you're saying about me is also applicable to you 🥀",
+   title: "Bro do you realized that, you have created 100 of versions of this site in 2 days 🤯",
   },
-  {
-    src: "./videos/reel10.mp4",
-    title: "Bro do you realized that, you have created 100 of versions of this site in 2 days 🤯",
-  },
+
 ];
