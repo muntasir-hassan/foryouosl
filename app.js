@@ -102,12 +102,7 @@ const check = () => {
   </main>
 
 `;
-  }
-};
-
-
-check();
-document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
   const videos = document.querySelectorAll("video");
 
   videos.forEach((video) => {
@@ -120,3 +115,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+  }
+};
+
+
+check();
