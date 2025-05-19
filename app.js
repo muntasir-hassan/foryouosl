@@ -1,4 +1,4 @@
-let isShe = false;
+let isShe = true;
 const content = document.getElementById("content");
 import { data } from "./data.js";
 
@@ -55,7 +55,7 @@ const check = () => {
 
   <main class="max-w-6xl mx-auto px-4 md:px-8 py-10">
     <header class="mb-6">
-      <h1 class="text-4xl font-bold text-red-600">Welcome 🥀</h1>
+      <h1 class="text-4xl font-bold text-red-600">Welcome🥀</h1>
       <p class="text-gray-500 mt-2">A one-sided short love story written in silence</p>
     </header>
 
