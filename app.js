@@ -30,7 +30,19 @@ const fetchData = async () => {
 };
 fetchData();
 
+window.onload(() => {
+  const videos = document.querySelectorAll("video");
 
+  videos.forEach((video) => {
+    video.addEventListener("play", () => {
+      videos.forEach((v) => {
+        if (v !== video) {
+          v.pause();
+        }
+      });
+    });
+  });
+});
 
 const check = () => {
   if (isShe == true) {
@@ -102,22 +114,7 @@ const check = () => {
   </main>
 
 `;
-    document.addEventListener("DOMContentLoaded", () => {
-  const videos = document.querySelectorAll("video");
-
-  videos.forEach((video) => {
-    video.addEventListener("play", () => {
-      videos.forEach((v) => {
-        if (v !== video) {
-          v.pause();
-        }
-      });
-    });
-  });
-});
-
   }
 };
-
 
 check();
