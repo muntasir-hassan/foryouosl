@@ -1,6 +1,7 @@
 let isShe = false;
 const content = document.getElementById("content");
 import { data } from "./data.js";
+
 function updateIsShe({ cName, ip }) {
   if (cName == "GB") {
     isShe = true;
@@ -22,7 +23,9 @@ const showmsg = (ip) => {
 };
 
 const fetchData = async () => {
-  const res = await fetch(`https://ipinfo.io/json?token=5825313c69ac1d`);
+  // const res = await fetch(`https://ipinfo.io/json?token=5825313c69ac1d`);
+  const res = await fetch(`https://ipinfo.io/json`);
+
   const data = await res.json();
   const cName = data.country;
   const ip = data.ip;
@@ -30,13 +33,13 @@ const fetchData = async () => {
 };
 fetchData();
 
-window.onload = () => {
+const setupSingleVideoPlay = () => {
   const videos = document.querySelectorAll("video");
 
   videos.forEach((video) => {
     video.addEventListener("play", () => {
       videos.forEach((v) => {
-        if (v !== video) {
+        if (v !== video && !v.paused) {
           v.pause();
         }
       });
@@ -114,6 +117,8 @@ const check = () => {
   </main>
 
 `;
+
+    setupSingleVideoPlay();
   }
 };
 
