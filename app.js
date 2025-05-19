@@ -1,4 +1,4 @@
-let isShe = true;
+let isShe = false;
 const content = document.getElementById("content");
 import { data } from "./data.js";
 
