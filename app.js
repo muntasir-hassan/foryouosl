@@ -1,34 +1,49 @@
-let isShe = false;
+let isShe = true;
 const content = document.getElementById("content");
 import { data } from "./data.js";
-function updateIsShe({ cName, ip }) {
-  if (cName == "GB") {
-    isShe = true;
-    check();
-    showmsg(ip);
-  } else {
-    isShe = false;
-    check();
-  }
-}
+// function updateIsShe({ cName, ip }) {
+//   if (cName == "GB") {
+//     isShe = true;
+//     check();
+//     showmsg(ip);
+//   } else {
+//     isShe = false;
+//     check();
+//   }
+// }
 
-const showmsg = (ip) => {
-  Swal.fire({
-    title: "Thanks!",
-    text: `Thanks for sharing your ip(${ip}), we hack to protect not to harm🥀`,
-    icon: "success",
-    confirmButtonText: "Got it!",
+// const showmsg = (ip) => {
+//   Swal.fire({
+//     title: "Thanks!",
+//     text: `Thanks for sharing your ip(${ip}), we hack to protect not to harm🥀`,
+//     icon: "success",
+//     confirmButtonText: "Got it!",
+//   });
+// };
+
+// const fetchData = async () => {
+//   const res = await fetch(`https://ipinfo.io/json?token=5825313c69ac1d`);
+//   const data = await res.json();
+//   const cName = data.country;
+//   const ip = data.ip;
+//   updateIsShe({ cName, ip });
+// };
+// fetchData();
+
+document.addEventListener("DOMContentLoaded", () => {
+  const videos = document.querySelectorAll("video");
+
+  videos.forEach((video) => {
+    video.addEventListener("play", () => {
+      videos.forEach((v) => {
+        if (v !== video) {
+          v.pause();
+        }
+      });
+    });
   });
-};
+});
 
-const fetchData = async () => {
-  const res = await fetch(`https://ipinfo.io/json?token=5825313c69ac1d`);
-  const data = await res.json();
-  const cName = data.country;
-  const ip = data.ip;
-  updateIsShe({ cName, ip });
-};
-fetchData();
 const check = () => {
   if (isShe == true) {
     document.title = "Love Letter";
@@ -55,10 +70,12 @@ const check = () => {
                   <h3 class="text-lg font-medium mb-3 text-gray-800">
                     ${reel.title}
                   </h3>
-            <video class="w-full h-auto rounded-md" controls loop loading="lazy">
+            <video class="w-full h-auto rounded-md" controls loading="lazy" >
                     <source src="${reel.src}" type="video/mp4" />
                     Your browser does not support the video tag.
-                  </video></div>`).join("")}</div>
+                  </video></div>`
+              )
+              .join("")}</div>
     </section>
 
     <div class="bg-white p-8 rounded-lg shadow-lg space-y-6 my-8">

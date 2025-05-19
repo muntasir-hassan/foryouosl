@@ -12,6 +12,6 @@ export const data = [
   {
     src: "./videos/reel3.mp4",
     title:
-      "Bro forgot about it(if possible). And comeback to ff like white444.",
+      "'Bro forget about it(if possible). And comeback to ff like white444.' — bro 'U may not know the transition from fighting for white444(in gm) to hating him + from loving to hating the gm.' — me",
   },
 ];
