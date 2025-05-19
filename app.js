@@ -42,7 +42,7 @@ window.onload = () => {
       });
     });
   });
-});
+};
 
 const check = () => {
   if (isShe == true) {
