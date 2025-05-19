@@ -1,34 +1,34 @@
 let isShe = true;
 const content = document.getElementById("content");
 import { data } from "./data.js";
-// function updateIsShe({ cName, ip }) {
-//   if (cName == "GB") {
-//     isShe = true;
-//     check();
-//     showmsg(ip);
-//   } else {
-//     isShe = false;
-//     check();
-//   }
-// }
+function updateIsShe({ cName, ip }) {
+  if (cName == "GB") {
+    isShe = true;
+    check();
+    showmsg(ip);
+  } else {
+    isShe = false;
+    check();
+  }
+}
 
-// const showmsg = (ip) => {
-//   Swal.fire({
-//     title: "Thanks!",
-//     text: `Thanks for sharing your ip(${ip}), we hack to protect not to harm🥀`,
-//     icon: "success",
-//     confirmButtonText: "Got it!",
-//   });
-// };
+const showmsg = (ip) => {
+  Swal.fire({
+    title: "Thanks!",
+    text: `Thanks for sharing your ip(${ip}), we hack to protect not to harm🥀`,
+    icon: "success",
+    confirmButtonText: "Got it!",
+  });
+};
 
-// const fetchData = async () => {
-//   const res = await fetch(`https://ipinfo.io/json?token=5825313c69ac1d`);
-//   const data = await res.json();
-//   const cName = data.country;
-//   const ip = data.ip;
-//   updateIsShe({ cName, ip });
-// };
-// fetchData();
+const fetchData = async () => {
+  const res = await fetch(`https://ipinfo.io/json?token=5825313c69ac1d`);
+  const data = await res.json();
+  const cName = data.country;
+  const ip = data.ip;
+  updateIsShe({ cName, ip });
+};
+fetchData();
 
 document.addEventListener("DOMContentLoaded", () => {
   const videos = document.querySelectorAll("video");
