@@ -30,7 +30,7 @@ const fetchData = async () => {
 };
 fetchData();
 
-window.onload(() => {
+window.onload = () => {
   const videos = document.querySelectorAll("video");
 
   videos.forEach((video) => {
