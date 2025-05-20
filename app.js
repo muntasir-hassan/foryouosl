@@ -53,7 +53,7 @@ const check = () => {
       .setAttribute("href", "./picture/withered.png");
     content.innerHTML = `     
 
-  <main class="max-w-6xl mx-auto px-4 md:px-8 py-10">
+   <main class="max-w-6xl mx-auto px-4 md:px-8 py-10">
     <header class="mb-6">
       <h1 class="text-4xl font-bold text-red-600">Welcome🥀</h1>
       <p class="text-gray-500 mt-2">A one-sided short love story written in silence</p>
@@ -96,7 +96,7 @@ const check = () => {
 
       <!-- Poetic Quote -->
       <blockquote class="italic text-lg text-gray-700 border-l-4 border-red-500 pl-4">
-        “You made my scars a story. I never gave you permission—but I never stopped reading.<b> But barwey tuje mera account ka acsess kese mila </b>. I loved ur style a hacker, a programmer, a developer and a friend. But bro u suck at development, this site is'nt prod ready.”
+        “You made my scars a story. I never gave you permission—but I never stopped reading. But barwey how did u get access to my acc . I loved ur style a hacker, a programmer, a developer and a friend.”
       </blockquote>
       <p class="text-right text-sm text-gray-500">— Mayaz Hassan</p>
 
@@ -106,8 +106,7 @@ const check = () => {
 
       <!-- Poetic Quote -->
       <blockquote class="italic text-lg text-gray-700 border-l-4 border-black pl-4">
-        “This site is created by my hacker(fake) + anonymous(fake) friend(real). For fun purpose and with his intention to make my heart vulnerable and exploit it to win a race(if i had to create web pages to describ the race it'll take years) 😊. And ofcourse u losed a bet now u have to add this to ur profile"
-      </blockquote>
+"This site is created by my hacker (fake) + anonymous (fake) friend (real). For fun purposes, with his intention to make my heart vulnerable and exploit it for revenge, I guess 😅. And of course, you lost a bet, so now you have to add this to your profile."      </blockquote>
       <p class="text-right text-sm text-gray-500">— Mayaz Hassan</p>
 
     </div>
