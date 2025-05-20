@@ -35,7 +35,7 @@ export const data = [
   },
   {
     src: "./videos/reel9.mp4",
-   title: "Bro do you realized that, you have created 100 of versions of this site in 2 days 🤯",
+   title: "Bro do you realized that, we have created 100 of versions of this site in 2 days 🤯",
   },
 
 ];
