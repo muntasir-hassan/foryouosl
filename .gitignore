@@ -1,0 +1,7 @@
+node_modules
+note.txt
+input.css
+.gitignore
+package-lock.json
+package.json
+tailwind.config.js
