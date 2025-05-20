@@ -1,11 +1,10 @@
 let isShe = false;
-const allowedCountry = window.ALLOWED_COUNTRY;
-console.log(allowedCountry);
+
 const content = document.getElementById("content");
 import { data } from "./data.js";
 
 function updateIsShe({ cName, ip }) {
-  if (cName == allowedCountry) {
+  if (cName == "GB") {
     isShe = true;
     check();
     showmsg(ip);
