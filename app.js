@@ -1,5 +1,5 @@
 let isShe = false;
-const allowedCountry = process.env.ALLOWED_COUNTRY;
+const allowedCountry = window.API_KEY;;
 const content = document.getElementById("content");
 import { data } from "./data.js";
 
