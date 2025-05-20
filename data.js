@@ -26,6 +26,18 @@ export const data = [
   },
   {
     src: "./videos/reel7.mp4",
+    title: "😮‍💨",
+  },
+  {
+    src: "./videos/reel8.mp4",
+    title: "😮‍💨",
+  },
+  {
+    src: "./videos/reel9.mp4",
+    title: "😮‍💨",
+  },
+  {
+    src: "./videos/reel997.mp4",
     title: "One day he’ll heal — not because he stopped loving her, but because he started loving himself 🌙",
   },
   {
