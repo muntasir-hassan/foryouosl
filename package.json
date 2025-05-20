@@ -1,7 +1,7 @@
 {
   "name": "foryouosl",
   "scripts": {
-   "build": "node build.js && vercel build"
+   
   },
   "dependencies": {
     "tailwindcss": "^3.4.1"
