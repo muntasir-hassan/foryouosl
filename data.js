@@ -26,15 +26,15 @@ export const data = [
   },
   {
     src: "./videos/reel7.mp4",
-    title: "😮‍💨",
+    title: "Khabhi sun toh zara.. 🌙",
   },
   {
     src: "./videos/reel8.mp4",
-    title: "😮‍💨",
+    title: "Shayed kismat me kuch or likha he 😮‍💨",
   },
   {
     src: "./videos/reel9.mp4",
-    title: "😮‍💨",
+    title: "🏳️😩",
   },
   {
     src: "./videos/reel997.mp4",
