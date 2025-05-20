@@ -29,12 +29,12 @@ export const data = [
     title: "One day he’ll heal — not because he stopped loving her, but because he started loving himself 🌙",
   },
   {
-    src: "./videos/reel8.mp4",
+    src: "./videos/reel998.mp4",
     title:
        "Bro, don't forget that everything you're saying about me is also applicable to you 🥀",
   },
   {
-    src: "./videos/reel9.mp4",
+    src: "./videos/reel999.mp4",
    title: "Bro do you realized that, we have created 100 of versions of this site in 2 days 🤯",
   },
 
