@@ -67,7 +67,7 @@ const check = () => {
                   <h3 class="text-lg font-medium mb-3 text-gray-800">
                     Eid Mubarak 🎀
                   </h3>
-            <img class="w-full h-auto rounded-md"  loading="lazy" src="./picture/eid mubarak.jpg"  />
+            <img class="w-full h-auto rounded-md" src="./picture/eid mubarak.jpg"  />
 
                   </img></div>
                   
