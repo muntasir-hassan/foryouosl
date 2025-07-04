@@ -1,8 +1,7 @@
 {
   "name": "foryouosl",
-  "scripts": {
-   
-  },
+  "type": "commonjs",
+  "scripts": {},
   "dependencies": {
     "tailwindcss": "^3.4.1"
   }
