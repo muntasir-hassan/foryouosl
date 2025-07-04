@@ -23,7 +23,7 @@ const showmsg = (ip) => {
 };
 
 const fetchData = async () => {
-  const res = await fetch(`https://ipinfo.io/json?token=5825313c69ac1d`);
+  const res = await fetch(`https://ipinfo.io/json`);
   const data = await res.json();
   const cName = data.country;
   const ip = data.ip;
