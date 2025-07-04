@@ -63,14 +63,7 @@ const check = () => {
       <h2 class="text-2xl font-semibold text-gray-700 mb-6">Only for you</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
 
-           <div class="bg-white rounded-lg shadow p-4">
-                  <h3 class="text-lg font-medium mb-3 text-gray-800">
-                    Eid Mubarak 🎀
-                  </h3>
-            <img class="w-full h-auto rounded-md" src="./picture/eid mubarak.jpg"  />
-
-                  </img></div>
-                  
+       
             ${data
               .map(
                 (reel) => `
